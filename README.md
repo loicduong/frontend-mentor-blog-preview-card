@@ -42,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Github - [Loic Duong](https://github.com/loicduong)
 - Frontend Mentor - [@loicduong](https://www.frontendmentor.io/profile/loicduong)
