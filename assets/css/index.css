@@ -149,14 +149,14 @@ table {
 }
 
 :root {
-    --color-yellow: #F4D04E;
-    --color-gray-950: #111111;
-    --color-gray-500: #6B6B6B;
-    --color-white: #FFFFFF;
-    --spacing-300: 24px;
-    --spacing-150: 12px;
-    --spacing-100: 8px;
-    --spacing-50: 4px;
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-gray-950: hsl(0, 0%, 7%);
+    --color-gray-500: hsl(0, 0%, 42%);
+    --color-white: hsl(0, 0%, 100%);
+    --spacing-300: 1.5rem;
+    --spacing-150: 0.75rem;
+    --spacing-100: 0.5rem;
+    --spacing-50: 0.25rem;
 }
 
 html {
@@ -186,6 +186,7 @@ body {
     box-shadow: var(--spacing-100) var(--spacing-100) 0px 0px rgba(0,0,0,1);
     padding: var(--spacing-300);
     background-color: var(--color-white);
+    border: 1px solid var(--color-gray-950);
 }
 
 .main__bg {
@@ -202,6 +203,17 @@ body {
     background-color: var(--color-yellow);
     padding: var(--spacing-50) var(--spacing-150);
     border-radius: 0.25rem;
+}
+
+.main__content-title {
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.main__content-title:hover,
+.main__content-title:focus,
+.main__content-title:active {
+    color: var(--color-yellow);
 }
 
 .main__author-view {
