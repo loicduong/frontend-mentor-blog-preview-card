@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/loicduong/frontendmentor-blog-preview-card.github.io)
+- Live Site URL: [Github Page](https://loicduong.github.io/frontendmentor-blog-preview-card.github.io/)
 
 ## My process
 
