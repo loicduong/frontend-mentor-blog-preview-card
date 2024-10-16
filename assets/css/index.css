@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+:root {
+    --color-yellow: #F4D04E;
+    --color-gray-950: #111111;
+    --color-gray-500: #6B6B6B;
+    --color-white: #FFFFFF;
+    --spacing-300: 24px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-yellow);
+    line-height: 1.5;
+    font-family: 'Figtree', sans-serif;
+    color: var(--color-gray-950);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-300);
+    border-radius: 1.25rem;
+    max-width: 336px;
+    box-shadow: var(--spacing-100) var(--spacing-100) 0px 0px rgba(0,0,0,1);
+    padding: var(--spacing-300);
+    background-color: var(--color-white);
+}
+
+.main__bg {
+    border-radius: 0.625rem;
+}
+
+.main__content-view {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-150);
+}
+
+.main__content-tag {
+    background-color: var(--color-yellow);
+    padding: var(--spacing-50) var(--spacing-150);
+    border-radius: 0.25rem;
+}
+
+.main__author-view {
+    width: 100%;
+}
+
+.main__author-avatar {
+    width: 2rem;
+    height: 2rem;
+}
+
+.main__author {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-150);
+}
+
+.main__text--preset-1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.main__text--preset-2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-gray-500);
+}
+
+.main__text--preset-3 {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.main__text--preset-3-bold {
+    font-size: 0.875rem;
+    font-weight: 800;
+}
+
+.attribution { 
+    margin-top: var(--spacing-300);
+    font-size: 0.6875rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
